@@ -1,3 +1,4 @@
+# Original repository on : https://github.com/instantink/image_compare/tree/main
 # ImageCompare
 [<img src="https://shields.io/github/license/instantink/image_compare?color=%2345a34c" />](LICENSE.txt)
 [<img src="https://shields.io/gem/v/image_compare" />](https://rubygems.org/gems/image_compare)
