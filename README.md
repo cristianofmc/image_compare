@@ -36,15 +36,15 @@ Source images used in examples:
 
 a.png
 
-<img alt="a.png" src="spec/fixtures/a.png" />
+<img alt="a.png" src="https://raw.githubusercontent.com/instantink/image_compare/main/spec/fixtures/a.png" />
 
 b.png
 
-<img alt="b.png" src="spec/fixtures/b.png" />
+<img alt="b.png" src="https://raw.githubusercontent.com/instantink/image_compare/main/spec/fixtures/b.png" />
 
 a1.png
 
-<img alt="a1.png" src="spec/fixtures/a1.png" />
+<img alt="a1.png" src="https://raw.githubusercontent.com/instantink/image_compare/main/spec/fixtures/a1.png" />
 
 ### Base (Color) mode (a.png X a1.png)
 
@@ -52,7 +52,7 @@ Compare pixels, resulting score is a ratio of unequal pixels (with respect to pr
 
 Resulting diff contains version of the first image with different pixels highlighted in red and red bounding box.
 
-<img alt="color_diff" src="spec/fixtures/color_diff.png" />
+<img alt="color_diff" src="https://raw.githubusercontent.com/instantink/image_compare/main/spec/fixtures/color_diff.png" />
 
 ## Usage
 
@@ -101,7 +101,7 @@ res.score #=> 0.0
 
 ## Excluding rectangle (a.png X a1.png)
 
-<img alt="a1.png" src="spec/fixtures/multiple_exclude_rects.png" />
+<img alt="a1.png" src="https://raw.githubusercontent.com/instantink/image_compare/main/spec/fixtures/multiple_exclude_rects.png" />
 
 You can exclude rectangle from comparing by passing `:exclude_rects` to `compare`.
 E.g., if `path_1` and `path_2` contain images above
